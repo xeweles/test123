@@ -41,7 +41,7 @@ async def get_photo(message: Message):
 @router_h.message(Command('get_photo'))
 async def get_photo(message: Message):
     await message.answer_photo(
-        photo='AgACAgIAAxkBAAMWaPkp5CRCpuwt-m17_pjROo2U948AAvD_MRtfkMhLzXpzk81VRksBAAMCAAN4AAM2BA',
+        photo='',
         caption='dsadsad')
 
 
